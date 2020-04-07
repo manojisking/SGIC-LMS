@@ -6,7 +6,8 @@ import ApplyLeave from '../Pages/ApplyLeave'
 import AddEmployee from '../Pages/AddEmployee'
 import LeaveApproval from '../Pages/LeaveApproval'
 import EmpDetails from '../Pages/EmpDetails'
-
+import Login from '../Pages/Login'
+import Settings from '../Pages/Settings'
 
  function Main() {
     return (
@@ -16,6 +17,8 @@ import EmpDetails from '../Pages/EmpDetails'
             <Route path='/AddEmployee' component={AddEmployee}></Route>
             <Route path='/LeaveApproval' component={LeaveApproval}></Route>
             <Route path='/EmpDetails' component={EmpDetails}></Route>
+            <Route path='/Login' component={Login}></Route>
+            <Route path='/Settings' component={Settings}></Route>
 
         </main>
     )

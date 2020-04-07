@@ -67,9 +67,13 @@ function AddEmployee() {
           </div>
     
           <div class="row">
-            <button type="button" class="btn btn-outline-success">ADD</button>
+          <div class="col-half">
+                <button type="button" class="btn btn-outline-success">Add</button>
+            </div>
     
+            <div class="col-half">
             <button type="button" class="btn btn-outline-danger">Cancel</button>
+            </div>
           </div>
         </form>
       </div>

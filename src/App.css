@@ -52,7 +52,12 @@ a:focus {
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
-
+.sicon{
+  padding-left: iem;
+  color: #fff;
+  margin-left: 1em;
+  margin-right: 1em;
+}
 .wrapper {
     display: flex;
     width: 100%;
@@ -65,7 +70,7 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: rgb(115, 135, 213);
     color: #fff;
     transition: all 0.3s;
 }
@@ -140,7 +145,7 @@ ul.CTAs a {
 }
 
 a.download {
-    background: #fff;
+    background: rgb(48, 122, 233);
     color: #7386D5;
 }
 
@@ -206,7 +211,9 @@ a.article:hover {
     }
 }
 
-/* form style */
+/* ---------------------------------------------------
+                       FORM STYLE
+----------------------------------------------------- */
 
 *,
 *:before,
@@ -215,7 +222,7 @@ a.article:hover {
 }
 
 #h4 {
-  color: #7ed321;
+  color: #218cd3;
 }
 input,
 input[type="radio"] + label,
@@ -236,13 +243,13 @@ select {
 }
 input:focus {
   outline: 0;
-  border-color: #64ac15;
+  border-color: #218cd3;
 }
 input:focus + .input-icon i {
-  color: #7ed321;
+  color: #218cd3;
 }
 input:focus + .input-icon:after {
-  border-right-color: #7ed321;
+  border-right-color: #218cd3;
 }
 input[type="radio"] {
   display: none;
@@ -270,9 +277,9 @@ input[type="radio"]:checked + label,
 input:checked + label:before,
 select:focus,
 select:active {
-  background-color: #7ed321;
+  background-color: #218cd3;
   color: #fff;
-  border-color: #64ac15;
+  border-color: #218cd3;
 }
 input[type="checkbox"] {
   display: none;
@@ -322,7 +329,7 @@ select:active {
   outline: 0;
 }
 select option {
-  background-color: #7ed321;
+  background-color: #218cd3;
   color: #fff;
 }
 .input-group {
@@ -375,12 +382,12 @@ select option {
   transition: all 0.35s ease-in-out;
 }
 .container-form {
-  max-width: 38em;
+  max-width: 50em;
   padding: 1em 3em 2em 3em;
   margin: 0em auto;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.986);
   border-radius: 4.2px;
-  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 20px -2px rgba(0, 0, 0, 0.5);
 }
 .row-form {
   zoom: 1;
@@ -416,71 +423,13 @@ select option {
   }
 }
 
-/* ----------------calender----------------------------*/
 
-#calender{
-  height: 300px;
-  width: 300px;
-  margin: 0 auto;
- box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  background: rgba(40,49,61,0.7);
-  border-radius: 10px;
-}
-
-#monthyear{
-  display:inline;
-  color:#FEC0CE;
-}
-p , .daysheader{
-  color:black;
-}
-.daysheader{
-  color:#FEC0CE;
-}
-img
-{
-  display:inline;
-  width:16px;
-  transition:all 1s ease-in-out;;
-}
-#previous:hover{
- 
-  transform: translate(-20px, 0px);
-  
-}
-#next:hover{
- 
-  transform: translate(20px, 0px);
-  
-}
-#top{
- height:9%;
- font-size: 18px;
-  padding:15px;
-}
-#days {
-left:50%;
- margin:20px;
- 
-}
-#add  {
-  display:none;
-  position:absolute;
-  WIDTH:250PX;
-  BORDER:none;
- }
-#task{
-  width:100%;
-  height:20px;
-  border-radius:5%;
-  border-color:white;
-}
-#date:hover{
-  background-color:#FEC0CE;
-}
 /*----------------------- Table css ---------------------*/
+
+.table-D{
+  margin: 1em auto 0 auto;
+  border: 3px solid rgb(83, 123, 209) !important;
+}
 
 .content-table {
   border-collapse: collapse;
@@ -519,4 +468,66 @@ left:50%;
 .content-table tbody tr.active-row {
   font-weight: bold;
   color: #009879;
+}
+
+
+
+
+
+.calendar {
+  max-width: max-content;
+  margin: 1em auto 0 auto;
+  padding: 1.5em;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid #4f8dd4;
+  border-radius: 8px;
+}
+
+
+.month-indicator {
+  color: #334e68;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.day-of-week,
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+
+.day-of-week {
+  margin-top: 1.25em;
+}
+
+.day-of-week > * {
+  font-size: 0.7em;
+  color: #829ab1;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+/* Dates */
+.date-grid {
+  margin-top: 0.5em;
+}
+
+/* Positioning the first day */
+.date-grid button:first-child {
+  grid-column: 6;
+}
+
+
+.date-grid button {
+  position: relative;
+  border: 0;
+  width: 4.5ch;
+  height: 4.5ch;
+  border-radius: 50%;
+  background-color: transparent;
+  color: var(--blue-grey-600);
 }

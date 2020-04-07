@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidebar from './Layout/Sidebar';
 import Header from './Layout/Header';
 import Main from './Pages/Main';
+import Dashboard from './Pages/Dashboard';
 function App() {
   return (
     <BrowserRouter>
