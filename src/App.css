@@ -3,6 +3,7 @@
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 body {
     padding: 1em;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -75,6 +76,7 @@ a:focus {
     transition: all 0.3s;
 }
 
+
 #sidebar.active {
     margin-left: -250px;
 }
@@ -95,16 +97,18 @@ a:focus {
 }
 
 #sidebar ul li a {
+  font-family: 'Roboto Slab', serif;
     padding: 10px;
     font-size: 1.1em;
     display: block;
-    color: blanchedalmond;
+    color: #fff;
 }
 
 
 #sidebar ul li a:hover {
     color: #7386D5;
     background: #fff;
+    text-decoration: none;
 }
 
 #sidebar ul li.active>a,
