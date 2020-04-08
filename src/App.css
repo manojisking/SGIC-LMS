@@ -59,6 +59,10 @@ a:focus {
   margin-left: 1em;
   margin-right: 1em;
 }
+
+.sicon :hover{
+  color: #0984e3;
+}
 .wrapper {
     display: flex;
     width: 100%;
@@ -71,24 +75,28 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: rgb(115, 135, 213);
+    background: linear-gradient(rgba(52, 152, 219,1.0) , rgba(41, 128, 185,1.0));
+    /*background: rgb(115, 135, 213);*/
     color: #fff;
     transition: all 0.3s;
 }
-
+.Color{
+  border: 2px solid #fff;
+  border-radius: 2px;
+  width: 200px;
+}
 
 #sidebar.active {
     margin-left: -250px;
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
+    padding: 20px 20px 20px 40px ;
     background: #6d7fcc;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p {
@@ -106,9 +114,10 @@ a:focus {
 
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #0984e3;
     background: #fff;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 #sidebar ul li.active>a,

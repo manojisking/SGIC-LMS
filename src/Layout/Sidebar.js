@@ -5,7 +5,7 @@ function Sidebar() {
 
     <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>SGIC-Jaffna</h3>
+                <h3>SGIC-JAFFNA</h3>
             </div>
 
             <ul class="list-unstyled components">
@@ -25,7 +25,7 @@ function Sidebar() {
                     </a>
                 </li>
 
-                <hr></hr>
+                <hr className="Color"></hr>
 
                 <p>Admin</p>
                 <li>
@@ -49,6 +49,7 @@ function Sidebar() {
                     </a>
                 </li>
             </ul>
+            <hr className="Color"></hr>
 
             <ul class="list-unstyled CTAs">
                 <li>
