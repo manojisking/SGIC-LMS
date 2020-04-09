@@ -5,11 +5,11 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 body {
-    padding: 1em;
+  padding: 1em;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
-  color: #b9b9b9;
-  background-color: #e3e3e3;
+  color: #160d0d;
+  background-color: #ffffff;
 }
 
 p {
@@ -436,55 +436,31 @@ select option {
   }
 }
 
+#Update{
+  
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
 
-/*----------------------- Table css ---------------------*/
+#Choose-file{
+  width: 300px;
+  color: #218cd3;
+}
+
+/* ---------------------------------------------------
+                       TABLE STYLE
+----------------------------------------------------- */
 
 .table-D{
   margin: 1em auto 0 auto;
   border: 3px solid rgb(83, 123, 209) !important;
 }
 
-.content-table {
-  border-collapse: collapse;
-  margin: 50px 0;
-  font-size: 0.9em;
-  min-width: 400px;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-
-.content-table thead tr {
-  background-color: #009879;
-  color: #ffffff;
-  text-align: left;
-  font-weight: bold;
-}
-
-.content-table th,
-.content-table td {
-  padding: 12px 15px;
-}
-
-.content-table tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
-
-.content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
-.content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
-}
-
-.content-table tbody tr.active-row {
-  font-weight: bold;
-  color: #009879;
-}
 
 
-
+/* ---------------------------------------------------
+                       CALENDER
+----------------------------------------------------- */
 
 
 .calendar {

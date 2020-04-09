@@ -7,7 +7,10 @@ import React from 'react'
       <div class="container">
     <div class="row">
       <div class="col col-md-6">
-      <h2>Leave Allocated</h2>
+        <div class="text-center">
+            <h4 id="h4">Leave Allocated</h4>
+        </div>
+
         <table class="table table-striped table-responsive-md btn-table table-bordered table-D">   
           <thead>
             <tr class="table-primary">
@@ -44,7 +47,9 @@ import React from 'react'
       </div>
 
       <div class="col-md-6">
-        <h1>calender</h1>
+        <div class="text-center">
+            <h4 id="h4">Calender</h4>
+        </div>
         <div class="calendar">
           <div class="month-indicator">
             <time datetime="2019-02"> February 2019 </time>
@@ -150,7 +155,9 @@ import React from 'react'
     
     <div class="row">
       <div class="col col-md-12">
-      <h2>History</h2>
+      <div class="text-center">
+            <h4 id="h4">Leave History</h4>
+        </div>
         <table class="table table-striped table-responsive-md btn-table table-bordered table-D">
         <thead>
           <tr class="table-primary">

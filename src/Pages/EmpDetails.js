@@ -17,7 +17,7 @@ function EmpDetails() {
                     <h4 class="text-primary">Leanne Boulton</h4>
                     <h5 class="text-info">Front end</h5>
                     <p class="text-right m-0"><a href="#" class="btn btn-primary float-left"><i class="far fa-user"></i> View Profile</a></p>
-                  <p class="text-right m-0"><a href="/DetailsUpdate" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
+                  <p class="text-right m-0"><a href="/UpdateProfile" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
               </div>
             </div>
           </div>
@@ -32,7 +32,7 @@ function EmpDetails() {
                     <h4 class="text-primary">crithic roshan</h4>
                     <h5 class="text-info">developer</h5>
                     <p class="text-right m-0"><a href="#" class="btn btn-primary float-left"><i class="far fa-user"></i> View Profile</a></p>
-                  <p class="text-right m-0"><a href="#" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
+                  <p class="text-right m-0"><a href="/UpdateProfile" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ function EmpDetails() {
                     <h4 class="text-primary">Leanne Boulton</h4>
                     <h5 class="text-info">Photographer</h5>
                     <p class="text-right m-0"><a href="#" class="btn btn-primary float-left"><i class="far fa-user"></i> View Profile</a></p>
-                  <p class="text-right m-0"><a href="#" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
+                  <p class="text-right m-0"><a href="/UpdateProfile" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ function EmpDetails() {
                     <h4 class="text-primary">Leanne Boulton</h4>
                     <h5 class="text-info">Photographer</h5>
                     <p class="text-right m-0"><a href="#" class="btn btn-primary float-left"><i class="far fa-user"></i> View Profile</a></p>
-                  <p class="text-right m-0"><a href="#" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
+                  <p class="text-right m-0"><a href="/UpdateProfile" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ function EmpDetails() {
                     <h4 class="text-primary">Leanne Boulton</h4>
                     <h5 class="text-info">Photographer</h5>
                     <p class="text-right m-0"><a href="#" class="btn btn-primary float-left"><i class="far fa-user"></i> View Profile</a></p>
-                  <p class="text-right m-0"><a href="#" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
+                  <p class="text-right m-0"><a href="/UpdateProfile" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ function EmpDetails() {
                     <h4 class="text-primary">Leanne Boulton</h4>
                     <h5 class="text-info">Photographer</h5>
                     <p class="text-right m-0"><a href="#" class="btn btn-primary float-left"><i class="far fa-user"></i> View Profile</a></p>
-                  <p class="text-right m-0"><a href="#" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
+                  <p class="text-right m-0"><a href="/UpdateProfile" class="btn btn-primary"><i class="far fa-user"></i> Update Profile</a></p>
               </div>
             </div>
           </div>

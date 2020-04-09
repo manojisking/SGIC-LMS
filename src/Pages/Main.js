@@ -8,6 +8,7 @@ import LeaveApproval from '../Pages/LeaveApproval'
 import EmpDetails from '../Pages/EmpDetails'
 import Login from '../Pages/Login'
 import Settings from '../Pages/Settings'
+import UpdateProfile from '../Pages/UpdateProfile'
 
  function Main() {
     return (
@@ -19,6 +20,7 @@ import Settings from '../Pages/Settings'
             <Route path='/EmpDetails' component={EmpDetails}></Route>
             <Route path='/Login' component={Login}></Route>
             <Route path='/Settings' component={Settings}></Route>
+            <Route path='/UpdateProfile' component={UpdateProfile}></Route>
 
         </main>
     )
