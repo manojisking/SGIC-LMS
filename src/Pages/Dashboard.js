@@ -4,55 +4,121 @@ import React from 'react'
     return (
         
           
-      <div class="container">
+  <div class="container">
     <div class="row">
-      <div class="col col-md-6">
+    <div class="col-md-3">
+      <div class="card-counter primary">
+        <span class="card-counter1"><i class="fa fa-edit"></i></span>
+        <span class="count-numbers">Casual</span>
+        <span class="count-name">Allocated-<span>20</span></span>
+        <span class="count-name1">Remaining-<span>10</span></span>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card-counter danger">
+      <span class="card-counter1"><i class="fa fa-medkit"></i></span>
+        <span class="count-numbers">Medical</span>
+        <span class="count-name">Allocated-<span>12</span></span>
+        <span class="count-name1">Remaining-<span>8</span></span>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card-counter success">
+      <span class="card-counter1"><i class="fa fa-money-bill-alt"></i></span>
+        <span class="count-numbers">Leu leave</span>
+        <span class="count-name">Allocated-<span>10</span></span>
+        <span class="count-name1">Remaining-<span>10</span></span>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card-counter info">
+      <span class="card-counter1"><i class="fa fa-users"></i></span>
+        <span class="count-numbers">Casual</span>
+        <span class="count-name">Allocated-<span>20</span></span>
+        <span class="count-name1">Remaining-<span>10</span></span>
+      </div>
+    </div>
+  </div>
+  <hr></hr>
+    <div class="row">
+      <div class="col col-md-8">
         <div class="text-center">
-            <h4 id="h4">Leave Allocated</h4>
+            <h4 id="h4">Leave History</h4>
         </div>
+      <div class="table-whole">
+        <table class="table pt-5 table-striped table-responsive-md btn-table table-bordered table-D">
+        <thead>
+          <tr class="table-primary">
+            <th>No</th>
+            <th>Type</th>
+            <th>Start</th>
+            <th>End</th>
+            <th>Reason</th>
+            <th>Status</th>
+          </tr>
+        </thead>
 
-        <table class="table table-striped table-responsive-md btn-table table-bordered table-D">   
-          <thead>
-            <tr class="table-primary">
-                <th>Leave</th>
-                <th>Allocated</th>
-                <th>Used</th>
-                <th>Remaining</th>
-              </tr>
-          </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Casual</td>
+            <td>1/4/2020</td>
+            <td>4/4/2020</td>
+            <td>Cousin's Wedding</td>
+            <td>Pending</td>
+          </tr>
+
+          <tr>
+            <th scope="row">2</th>
+            <td>Casual</td>
+            <td>1/4/2020</td>
+            <td>4/4/2020</td>
+            <td>Cousin's Wedding</td>
+            <td>Pending</td>
+          </tr>
+
+          <tr>
+            <th scope="row">3</th>
+            <td>Casual</td>
+            <td>1/4/2020</td>
+            <td>4/4/2020</td>
+            <td>Cousin's Wedding</td>
+            <td>Pending</td>
+          </tr>
+
+          <tr>
+            <th scope="row">4</th>
+            <td>Casual</td>
+            <td>1/4/2020</td>
+            <td>4/4/2020</td>
+            <td>Cousin's Wedding</td>
+            <td>Pending</td>
+          </tr>
+
+          <tr>
+            <th scope="row">5</th>
+            <td>Casual</td>
+            <td>1/4/2020</td>
+            <td>4/4/2020</td>
+            <td>Cousin's Wedding</td>
+            <td>Approved</td>
+          </tr>
         
-          <tbody>
-            <tr>
-              <td>Casual</td>
-              <td>20</td>
-              <td>8</td>
-              <td>12</td>
-            </tr>
-
-            <tr>
-              <td>Medical</td>
-              <td>12</td>
-              <td>2</td>
-              <td>10</td>
-            </tr>
-            <tr>
-              <td>Leu leve</td>
-              <td>15</td>
-              <td>5</td>
-              <td>10</td>
-            </tr>
-           
-          </tbody>
+        </tbody>
         </table>
+        </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="text-center">
-            <h4 id="h4">Calender</h4>
+            <h4 id="h4">Calendar</h4>
         </div>
         <div class="calendar">
           <div class="month-indicator">
-            <time datetime="2019-02"> February 2019 </time>
+            <time datetime="2019-02"> April 2020 </time>
           </div>
           <div class="day-of-week">
             <div>Su</div>
@@ -152,68 +218,91 @@ import React from 'react'
         </div>
       </div>
     </div>
-    
+    <hr></hr>
     <div class="row">
       <div class="col col-md-12">
       <div class="text-center">
-            <h4 id="h4">Leave History</h4>
+            <h4 id="h4">Employee leave approval</h4>
         </div>
         <table class="table table-striped table-responsive-md btn-table table-bordered table-D">
-        <thead>
-          <tr class="table-primary">
-            <th>No</th>
-            <th>Employee</th>
-            <th>Leave Type</th>
-            <th>Start</th>
-            <th>End</th>
-            <th>Reason</th>
-            <th>Status</th>
-          </tr>
-        </thead>
+    
+              <thead>
+                <tr class="table-primary">
+                  <th>#</th>
+                  <th>Employee</th>
+                  <th>Leave Type</th>
+                  <th>Start</th>
+                  <th>End</th>
+                  <th>Reason</th>
+                  <th>Paid/Unpaid</th>
+                  <th>Status</th>
+                  <th>Approval</th>
+                </tr>
+              </thead>
+            
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>P.ManojKumar</td>
+                  <td>Casual</td>
+                  <td>6/4/2020</td>
+                  <td>8/4/2020</td>
+                  <td>Attend Cousin's Wedding</td>
+                  <td>Paid</td>
+                  <td>Pending</td>
+                  <td> <button type="button" class="btn btn-outline-success btn-sm m-0 waves-effect">Approve</button> </td>
+                </tr>
+    
+                <tr>
+              <th scope="row">2</th>
+              <td>K.Thushanthini</td>
+              <td>Casual</td>
+              <td>1/4/2020</td>
+              <td>4/4/2020</td>
+              <td>Attend Sister's Wedding</td>
+              <td>Paid</td>
+              <td>Pending</td>
+              <td> <button type="button" class="btn btn-outline-success btn-sm m-0 waves-effect">Approve</button> </td>
+            </tr>
 
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>P.ManojKumar</td>
-            <td>Casual</td>
-            <td>1st September, 2018</td>
-            <td>3rd September, 2018</td>
-            <td>Attend Cousin's Wedding</td>
-            <td>Pending</td>
-          </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>D.Duckless</td>
+              <td>Casual</td>
+              <td>10/4/2020</td>
+              <td>15/4/2020</td>
+              <td>Attend birthday party</td>
+              <td>Paid</td>
+              <td>Pending</td>
+              <td> <button type="button" class="btn btn-outline-success btn-sm m-0 waves-effect">Approve</button> </td>
+            </tr>
 
-          <tr>
-            <th scope="row">1</th>
-            <td>P.ManojKumar</td>
-            <td>Casual</td>
-            <td>1st September, 2018</td>
-            <td>3rd September, 2018</td>
-            <td>Attend Cousin's Wedding</td>
-            <td>Pending</td>
-          </tr>
-
-          <tr>
-            <th scope="row">1</th>
-            <td>P.ManojKumar</td>
-            <td>Casual</td>
-            <td>1st September, 2018</td>
-            <td>3rd September, 2018</td>
-            <td>Attend Cousin's Wedding</td>
-            <td>Pending</td>
-          </tr>
-
-          <tr>
-            <th scope="row">1</th>
-            <td>P.ManojKumar</td>
-            <td>Casual</td>
-            <td>1st September, 2018</td>
-            <td>3rd September, 2018</td>
-            <td>Attend Cousin's Wedding</td>
-            <td>Pending</td>
-          </tr>
-        
-        </tbody>
-        </table>
+            <tr>
+              <th scope="row">4</th>
+              <td>N.Vithusha</td>
+              <td>Casual</td>
+              <td>1/4/2020</td>
+              <td>3/4/2020</td>
+              <td>Attend hospital</td>
+              <td>Paid</td>
+              <td>Pending</td>
+              <td> <button type="button" class="btn btn-outline-success btn-sm m-0 waves-effect">Approve</button> </td>
+            </tr>
+           
+            <tr>
+              <th scope="row">5</th>
+              <td>K.Lakshmy</td>
+              <td>Casual</td>
+              <td>20/4/2020</td>
+              <td>22/4/2020</td>
+              <td>Attend Cousin's Wedding</td>
+              <td>Paid</td>
+              <td>Pending</td>
+              <td> <button type="button" class="btn btn-outline-success btn-sm m-0 waves-effect">Approve</button> </td>
+            </tr>
+               
+              </tbody>
+            </table>
       </div> 
     </div> 
   </div> 

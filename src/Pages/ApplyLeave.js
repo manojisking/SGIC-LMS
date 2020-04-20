@@ -11,7 +11,6 @@ function ApplyLeave() {
               <option>Casual</option>
               <option>Medical</option>
               <option>Leu Leve</option>
-              <option>Leu Leve</option>
             </select>
           </div>
         </div>
@@ -19,29 +18,15 @@ function ApplyLeave() {
           <div class="col-half">
             <h4 id="h4">Start Date</h4>
             <div class="input-group">
-              <div class="col-third">
-                <input type="text" placeholder="DD"/>
-              </div>
-              <div class="col-third">
-                <input type="text" placeholder="MM"/>
-              </div>
-              <div class="col-third">
-                <input type="text" placeholder="YYYY"/>
-              </div>
+                <input type="text" placeholder="Click to pick a date"/>
             </div>
           </div>
           <div class="col-half">
             <h4 id="h4">End Date</h4>
             <div class="input-group">
-              <div class="col-third">
-                <input type="text" placeholder="DD"/>
-              </div>
-              <div class="col-third">
-                <input type="text" placeholder="MM"/>
-              </div>
-              <div class="col-third">
-                <input type="text" placeholder="YYYY"/>
-              </div>
+            <div class="input-group">
+                <input type="text" placeholder="Click to pick a date"/>
+            </div>
             </div>
           </div>
         </div>

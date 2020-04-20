@@ -12,7 +12,7 @@ function LeaveApproval() {
                 <tr class="table-primary">
                   <th>#</th>
                   <th>Employee</th>
-                  <th>Leave Type</th>
+                  <th>Type</th>
                   <th>Start</th>
                   <th>End</th>
                   <th>Reason</th>

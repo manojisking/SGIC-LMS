@@ -17,7 +17,7 @@ import React from 'react'
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a><h4>Learning Management System</h4></a>
+                                <a><h4>Leave Management System</h4></a>
                             </li>
                         </ul>
                     </div>

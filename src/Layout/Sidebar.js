@@ -27,7 +27,7 @@ function Sidebar() {
 
                 <hr className="Color"></hr>
 
-                <p>Admin</p>
+                <p>Manager</p>
                 <li>
                     <a href="./AddEmployee">
                         <span class="sicon"><i class="fas fa-user-plus"></i></span>
