@@ -2,27 +2,48 @@ import React from 'react'
 
 function Login() {
     return (
-        <div class="container-form">
-        <form>
-          <div class="row">
-            <h4 id="h4">Login</h4>
-            <div class="input-group input-group-icon">
-              <input type="email" placeholder="User Name"/>
-              <div class="input-icon"><i class="fas fa-user-tie"></i></div>
+<div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <h3>Login</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="ForgetPwd">Forget Password?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 login-form-2">
+                    <h3>Register</h3>
+                    <form>
+                    <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Register" />
+                        </div>
+                        <div class="form-group">
+
+                            <a href="#" class="ForgetPwd" value="Login">Forget Password?</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="input-group input-group-icon">
-              <input type="password" placeholder="Password"/>
-              <div class="input-icon"><i class="fa fa-key"></i></div>
-            </div>
-          </div>
-     
-          <div class="row">
-            <div class="col text-center">
-                <button type="button" class="btn btn-outline-primary">Login</button>
-            </div>
-          </div>
-        </form>
-      </div>
+        </div>
     )
 }
 export default Login
